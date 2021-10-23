@@ -1,0 +1,29 @@
+
+<div class="container my-4 shadow-lg p-3 mb-5 bg-white rounded">
+
+  <h1 style="text-align: center;color:rgb(92, 64, 182)">NOTES</h1>
+  <br>
+  <div style="text-align: center;">
+  <input  type="text" size="50" placeholder="Enter New Notes" #task/>
+  </div><br>
+  
+  
+  <div style="text-align: center;" >
+  <button  (click)="addTask(task.value)"  style="text-align: center;color:rgb(92, 64, 182)"
+  class="btn btn-default shadow-lg p-2 mb-2 bg-white rounded">
+    <b>Add New NOTES</b>  </button> </div>
+  <br>
+  <br>
+  
+  
+  <ul *ngFor="let item of list">
+      <li>{{item.name}}
+           <button (click)="removeTask(item.id)"  style="text-align: center;color:rgb(92, 64, 182)"
+            class="btn btn-default shadow-lg p-2 mb-2 bg-white rounded"
+          >
+     <b> Remove</b></button></li>
+  </ul>
+  
+  
+  </div>
+  

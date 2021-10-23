@@ -1,0 +1,19 @@
+h3 {
+    text-align: center;
+    background: -webkit-linear-gradient(rgb(41, 51, 185),rgb(51, 197, 241));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;   
+  }
+ .image{
+   background-image:url(C:\Users\Fariha\Monkfox\notes-app\src\assets\a6.jpg);
+   background-size:100%;
+   background-attachment: fixed;
+ width:100%;
+ height: 300px;
+ }
+
+h4{
+  background: -webkit-linear-gradient(rgb(75, 174, 240),rgb(0, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;   
+}

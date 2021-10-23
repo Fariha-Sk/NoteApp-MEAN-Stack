@@ -1,0 +1,47 @@
+.container {
+   padding-top: 2px;
+   margin-top: 10px;
+   height:400px;
+  }
+.content{
+  background-image: linear-gradient(#abd0e6, rgb(84, 158, 180));
+ height: 330px;
+}
+
+.content {
+  margin: auto;
+  width: 50%;
+  border: 3px solid rgb(247, 247, 247);
+ 
+}
+
+.todo-item{
+  display: flex;
+font-size: 17px;
+
+
+}
+
+.todo-item .check-box{
+  border: 2px solid #eee;
+  border-radius: 50%;
+  height: 28px;
+  width: 28px; 
+  margin-right: 20px;
+ 
+}
+
+.check-box:hover{
+background-color: rgb(60, 98, 134);
+}
+
+.todo-edit{
+  padding-left: 20%;
+}
+.todo-trash{
+  padding-left: 10%;
+}
+
+.todo-control{
+  background-color:rgb(53, 157, 189)
+}

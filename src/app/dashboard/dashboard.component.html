@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-sm navbar-dark bg-custom-2">
+    <a class="navbar-brand mb-0 h1 px-5" href="#">NOTES APP</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExample03">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active px-5">
+          <a class="nav-link active " routerLink="/dashboard">DASHBOARD</a>
+        </li>
+        <li class="nav-item px-5">
+          <a class="nav-link active" routerLink="/dashboard/addnotes">ADD NOTES</a>
+        </li>
+        <li class="nav-item px-5">
+          <a class="nav-link active" routerLink="/dashboard/todo">TO-DO LIST</a>
+        </li>
+        <li class="nav-item px-5">
+          <a class="nav-link active" routerLink="/">SIGN-OUT</a>
+        </li>
+     </ul>
+    
+    </div>
+  </nav>
+
+  <router-outlet></router-outlet>
